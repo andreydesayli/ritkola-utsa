@@ -4,6 +4,7 @@ import React from "react";
 import imgbg2 from "../assets/images/img-bg2.png";
 
 import { CloudUploadIcon } from "@heroicons/react/solid";
+import Sponsor from "./Sponsor";
 
 function Registration() {
   return (
@@ -93,6 +94,7 @@ function Registration() {
       <div className="flex relative justify-center px-2 pt-10 pb-[100px] sm:pt-20 text-black">
         <button className="bg-gradient-to-b from-[#165E00] via-[#FFDD00] to-[#FF0000] text-white text-3xl font-bold rounded-xl shadow-2xl shadow-gray-300 w-[137px] h-[60px] md:w-[137px] ">Next</button>
       </div>
+      <Sponsor />
     </div>
   );
 }

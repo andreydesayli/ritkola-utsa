@@ -3,12 +3,12 @@ import "./assets/css/index.css";
 
 import Registration from "./components/Registration";
 import Sponsor from "./components/Sponsor";
+import RegisDone from "./components/RegisDone"
 
 function App() {
   return (
     <div className="App">
-      <Registration />
-      <Sponsor />
+      <RegisDone />
     </div>
   );
 }
