@@ -13,18 +13,18 @@ const RegisDone = () => {
                 <div className='container relative mx-auto pb-80 bg-[#FAF8F8] rounded-3xl'>
                     <img src={ceklist} alt='/' className='mx-auto w-263 h-254 pt-24'/>
                     <div className='container flex' >
-                        <h1 className='mt-40 mx-auto text-black  text-8xl'>Thank You</h1>
+                        <h1 className='font-Poppins mt-40 mx-auto text-black  text-8xl'>Thank You</h1>
                     </div>
                     <div className='flex justify-center'>
                         <div className='w-[565px] h-[278px] flex flex-direction:row bg-[#F8DECC] rounded-3xl py-16 pr-[86px] pl-16 mt-16'>
                             <img src={user} alt='/' className='w-133 h-150'/>
                             <div className='ml-28'>
-                                <h3 className='font-encode text-4xl mb-16'>Nama</h3>
-                                <h3 className='font-encode text-4xl'>No. Regis</h3>
+                                <h3 className='font-Poppins text-4xl mb-16'>Nama</h3>
+                                <h3 className='font-Poppins text-4xl'>No. Regis</h3>
                             </div>
                         </div>
                     </div>
-                    <h3 className='text-center text-4xl mx-52 mt-32 font-encode'>
+                    <h3 className='text-center text-4xl mx-52 mt-32 font-Poppins'>
                             Terima Kasih sudah menjadi bagian dari Ritkola Utsa dan sudah mensupport ekosistem ekonomi kreatif MINAHASA UTARA
                     </h3>
                 </div>
